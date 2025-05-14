@@ -102,15 +102,15 @@ Each tool (Add, Subtract, Multiply, Divide) takes two float inputs. The first ca
 1. Install dependencies:
 
    ```bash
-   pip install langgraph pydantic baml_client typing_extensions
+   pip install -r requirements.txt
    ```
 
-2. Set up your BAML API key if required.
+2. Set up your API keys in a .env file and assign it to clients.
 
 3. Run `studio.py`:
 
    ```bash
-   python studio.py
+   python normal_py.py
    ```
 
 ---
