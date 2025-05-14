@@ -107,7 +107,7 @@ Each tool (Add, Subtract, Multiply, Divide) takes two float inputs. The first ca
 
 2. Set up your API keys in a .env file and assign it to clients.
 
-3. Run `studio.py`:
+3. Run `normal_py.py` for a simple inference:
 
    ```bash
    python normal_py.py
